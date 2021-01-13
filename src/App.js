@@ -2,7 +2,7 @@ import React from "react";
 import firebaseConfig from "./firebase/config.js";
 import firebase from "firebase";
 import data from "./data.json";
-import Single from "./single";
+import Grid from "./components/Grid";
 
 class App extends React.Component {
     constructor(props) {
@@ -17,7 +17,7 @@ class App extends React.Component {
         return (
             <div>
                 <h1>Hello World</h1>
-                <Single />
+                <Grid items={this.state.data}/>
             </div>
         );
     }
