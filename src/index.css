@@ -5,6 +5,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("./bg2.jpg");
+}
+
+h1{
+  text-align: center;
+  color: rgb(142, 50, 158);
+  font-family: comic;
 }
 
 code {
