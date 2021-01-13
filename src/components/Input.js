@@ -4,7 +4,7 @@ const Input = (props) => {
 	return (
 		<div className='input-field col s6'>
 			<input id={props.id} type='text' className='validate' />
-			<label htmlfor={props.id}>{props.content}</label>
+			<label htmlFor={props.id}>{props.content}</label>
 		</div>
 	);
 };
