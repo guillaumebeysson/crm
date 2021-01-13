@@ -1,14 +1,14 @@
 import React from "react";
 
 const Single = (props) => {
-    console.log(props.item);
+    
     return (
 
     <li className="col  s12 l3 m4">
         <div className="card">
             <div className="card-image">
                 <img
-                    src="./card1.png"
+                    src={props.item.urlPhoto}
                     alt={props.item.prenom}
                 />
                 <span className="card-title">
